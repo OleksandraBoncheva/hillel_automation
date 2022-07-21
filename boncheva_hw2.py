@@ -5,7 +5,7 @@
 # Assign actual data to the variables below
 # and run the script to print the output.
 
-name = "Alex"
+name = "Oleksandra"
 profession = "QA Manual"
 facility = "Sprinterra"
 city = "Odesa"
