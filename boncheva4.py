@@ -7,7 +7,7 @@ Cy = int(input("Введіть Сн: "))
 r1 = int(input("Введіть r1: "))
 r2 = int(input("Введіть r2: "))
 
-L = cmath.sqrt((Px - Cx) ^ 2 + (Py - Cy) ^ 2)
+L = cmath.sqrt((Px - Cx) ** 2 + (Py - Cy) ** 2)
 L = int((L).real)
 
 result = "не належить"
