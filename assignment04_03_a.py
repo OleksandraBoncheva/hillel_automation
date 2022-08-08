@@ -16,7 +16,7 @@ def main():
     data1 = data["result"]["students"]
     print(f"Students: {data1}")  # відобразити тільки students
     data2 = data["result"]["ratings"]
-    print(f"Ratings: {data2.values()}")  # відобразити тільки ratings зі словника
+    print(f"Ratings: {data2}")  # відобразити тільки ratings зі словника
 
 
 if __name__ == "__main__":
