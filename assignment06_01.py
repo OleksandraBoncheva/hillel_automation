@@ -26,7 +26,10 @@ print(f"Статистика слів: {words_count(input_str)}")
 
 def letter_count(input_str):
     counts2 = dict()
-    for i in input_str:
-        counts2[i] = counts2.get(i,0)+1
+    for letter in input_str:
+        if letter in counts2:
+         counts2[letter] += 1
+        else:
+         counts2[letter] = 1
     return counts2
 print(f"Статистика літер: {letter_count(input_str)}")
